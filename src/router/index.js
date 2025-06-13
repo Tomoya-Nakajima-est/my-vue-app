@@ -26,6 +26,16 @@ const router = createRouter({
       path: '/delete',
       name: 'delete',
       component: () => import('../views/DeleteView.vue'),
+    },
+    {
+      path: '/update',
+      name: 'update',
+      component: () => import('../views/UpdateView.vue'),
+    },
+    {
+      path: '/suggest',
+      name: 'suggest',
+      component: () => import('../views/SuggestView.vue'),
     }
   ],
 })

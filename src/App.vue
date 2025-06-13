@@ -8,6 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <li><RouterLink to="/create">Create</RouterLink></li>
     <li><RouterLink to="/delete">Delete</RouterLink></li>
     <li><RouterLink to="/update">Update</RouterLink></li>
+    <li><RouterLink to="/Suggest">Suggest</RouterLink></li>
   </ul>
   <RouterView />
 </template>
